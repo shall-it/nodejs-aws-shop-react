@@ -10,8 +10,8 @@
     "test": "jest",
     "cdk": "cdk",
     "cdk:bootstrap": "npx cdk bootstrap",
-    "cloudfront:deploy": "cdk deploy",
-    "cloudfront:destroy": "cdk destroy"
+    "stack:deploy": "cdk deploy",
+    "stack:destroy": "cdk destroy"
   },
   "devDependencies": {
     "@types/jest": "^29.5.8",

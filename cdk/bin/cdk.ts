@@ -5,9 +5,6 @@ import * as s3 from 'aws-cdk-lib/aws-s3';
 import * as deployment from 'aws-cdk-lib/aws-s3-deployment';
 import * as cf from 'aws-cdk-lib/aws-cloudfront';
 import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
-// import { config } from 'dotenv';
-
-// config();
 
 const app = new cdk.App();
 

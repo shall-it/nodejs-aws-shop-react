@@ -25,6 +25,18 @@ Starts the project in dev mode with mocked API on local environment.
 
 Builds the project for production in `dist` folder.
 
+### `cdk:prepare`
+
+Makes CDK bootstrap (preparation) to work with AWS resources
+
+### `build:deploy`
+
+Builds the project for production in `dist` folder, deploys/redeploys stack resources into AWS if changed, uploads static to S3 with CloudFront invalidation if changed
+
+### `destroy`
+
+Destroy stack resources into AWS, use with caution!
+
 ### `preview`
 
 Starts the project in production mode on local environment.
@@ -36,3 +48,17 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+# Links for cross-check
+
+## Manual S3 URL
+https://awsdevrss-nodejs-aws-shop-react.s3.amazonaws.com/index.html
+
+## Manual CloudFront URL
+https://dgqwekqmxp3gk.cloudfront.net
+
+## CDK S3 URL
+https://nodejs-aws-shop-react-awsdevrss.s3.eu-west-3.amazonaws.com/index.html
+
+## CDK CloudFront URL
+https://dyfk99rjrorkr.cloudfront.net/
